@@ -1,0 +1,389 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    list-style: none;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+    
+  
+}
+/* encabezado */
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+}
+img{
+    width: 80px;
+    height: 80px;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+header ul{
+    display: flex;
+    gap: 20px;
+    color: gray; 
+}
+
+li:hover{
+    border-bottom: 2px solid red;
+}
+
+button{
+    border-radius: 30px;
+    color: white;
+    background: rgb(255, 0, 0);
+    width: 150px;
+    height: 40px;
+    border: 1px solid black;
+}
+
+/* main */
+
+main{
+padding: 15px;
+}
+
+ .contenedor{
+display: flex;
+justify-content: center;
+text-align: center;
+font-size: 30px;
+ }
+
+ span{
+    color: red;
+ }
+
+ .ferrari{
+    width: 50%;
+    height: 80%;
+    padding: 30px;
+    margin:0 0 0 350px;
+ }
+
+ .section1{ 
+    background-color: rgb(255, 255, 255);
+    border-radius: 20px;
+    padding: 10px;
+    box-shadow: 10px  10px 40px 0px ;
+    Border-top:7px solid red;
+    width: 70pc;
+    margin-left: 100px;
+ }
+
+ .section1 h5{
+    color: gray;
+ }
+
+ .contenedor1{
+    display: flex;
+   align-items: center;
+   gap: 10px;
+  
+ }
+
+ .image1{
+    width:50px;
+    height:50px;
+ }
+
+ .contenedor2{
+display: flex;
+flex-direction: column;
+gap: 10px;
+ }
+
+ .button1{
+    background-color: black;
+ }
+
+ .boton{
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+ }
+
+  input{
+    border-radius: 10px;
+    background: rgba(168, 165, 159, 0.356);
+    border: transparent;
+   height: 30px;
+ }
+   
+.section2 h4{
+    display: flex;
+    justify-content: center;
+    padding:10pc 0 10px 0;
+ }
+
+ .section2 h2{
+    text-align: center;
+    font-size: 35px;
+    padding: 0 0 40px 0;
+ }
+
+ .section2 p{
+   text-align: center;
+   padding: 0 0 7pc 0;
+   color: gray;
+ }
+
+ .section3{
+    display: flex;
+   flex-wrap: wrap;
+   gap: 15px;
+  margin-left: 190px;
+ }
+
+ .tarject{
+        width: 300px;
+        height: 300px;
+        padding: 30px;
+        border: 1px solid #ccc;
+        border-radius: 30px; 
+        box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.1);     
+ }
+
+ .tarject p{
+    padding:10px 0 0 0;
+    color: gray;
+ }
+
+ .section4{
+    display: flex;
+    padding: 110px ;
+ }
+
+ .contenedor3{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    width: 800px;
+ }
+
+ .contenedor3 p{
+    color: gray;
+    padding:25px 0 25px 0;
+ }
+
+ .contenedor3 h6{
+    font-size: 15px;
+ }
+ 
+ .carro{
+   width: 700px;
+   height: 350px;  
+ }
+
+ .section5{
+text-align: center;
+ }
+
+ .section5 h1{
+    font-size: 30px;
+ }
+
+ .section6{
+   display: flex;
+   gap: 15px;
+   margin-left: 190px;
+   flex-wrap: wrap;
+  
+ }
+
+ .contenedor5{
+    width: 320px;
+    height: 385px;
+    padding: 30px;
+    border: 1px solid #ccc;
+    border-radius: 30px; 
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.1);      
+}
+ 
+ .captura{
+   display: flex;
+   gap: 5px;
+ }
+
+ .yellow{
+  width: 250px;
+  height: 125px;
+ }
+
+.section6 p {
+   padding: 10px;
+   color: gray;
+}
+
+.section6 h6{
+   font-size: 15px;
+}
+ 
+.button2{
+   display: flex;
+   justify-content: center;
+   padding: 10pc;
+}
+
+.video{
+   width:590px ;
+   height:390px ;
+   margin-left: 6pc;
+   border-radius: 5px;
+}
+
+.contenedor6{
+   display: flex;
+}
+
+.contenedor7{
+    margin: 5pc;
+   display: flex;
+   flex-direction: column;
+   gap: 20px;
+}
+
+.contenedor7 p{
+   color: gray;
+}
+
+.section8{
+   background-color: rgba(235, 29, 29, 0.952);
+   margin: 9pc;
+   border-radius: 30px;
+   box-shadow: 0 0 5px 0;
+   height: 200px;
+}
+
+.contenedor8{
+   display: flex;
+   align-items: center;
+   gap: 7pc;
+}
+
+.contenedor9{
+   display: flex;
+   flex-direction: column;
+   gap:10px;
+   color: white;
+}
+
+.contenedor9 p{
+   font-size: 24px;
+}
+.person{
+   width: 150px;
+   height: 150px;
+   margin: 0 0 4pc 4pc;
+}
+
+.cars0{
+   width: 500px;
+   height: 260px;
+}
+
+.section9{
+ padding: 3pc;
+}
+
+.contenedor10{
+   padding:0 0 0 8pc;
+   display: flex;
+  
+  
+}
+
+.contenedor10 h1{
+   font-size: 35px;
+}
+
+.contenedor10 img{
+   width:100px ;
+   height: 50px ;
+  
+}
+
+.ok{
+   width:50pc;
+}
+
+.section10{
+   display: flex;
+   gap: 15px;
+   margin-left: 100px;
+   flex-wrap: wrap;
+   
+}
+
+.contenedor12{
+   width: 350px;
+   height: 385px;
+   border: 1px solid #ccc;
+   border-radius: 30px; 
+   box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.1); 
+   border-bottom: 7px solid rgb( 255, 0, 0);
+   text-align: center;
+   padding: 5px;
+}
+
+.contenedor12 p{
+   color: gray;
+   padding: 15px;
+}
+
+.stars{
+   width: 150px;
+   height: 50px;
+   padding:15px;
+}
+
+.punto{
+   display: flex;
+   justify-content: center;
+   padding:5pc;
+}
+
+.logos{
+   width: 80%;
+   margin-left: 110px;
+}
+
+.abc{
+   padding: 5pc;
+}
+
+.section11{
+   background-color: rgba(128, 128, 128, 0.24);
+   width: 100%;
+   height: 298px;
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   padding: 10pc;
+}
+
+.contenedor13{
+  margin-left: 8pc;
+  display: flex;
+  align-items: center;
+}
+
+footer ul{
+   color: black;
+   display: flex;
+   flex-direction: column;
+    gap: 10px;
+}
+
+.telefono{
+   color: red;
+}
+
+
